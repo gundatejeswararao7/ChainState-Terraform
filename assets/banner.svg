@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 340" width="1600" height="340">
+<defs><marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#64748b"/></marker><marker id="arrr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#be123c"/></marker><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0f172a"/><stop offset="1" stop-color="#1e3a8a"/></linearGradient><filter id="sh" x="-5%" y="-5%" width="110%" height="120%"><feDropShadow dx="0" dy="2" stdDeviation="3" flood-color="#0f172a" flood-opacity="0.12"/></filter></defs>
+<rect width="1600" height="340" rx="22" fill="url(#bg)"/>
+<circle cx="1150" cy="60" r="3" fill="#60a5fa" opacity="0.25"/>
+<circle cx="1188" cy="115" r="4" fill="#60a5fa" opacity="0.25"/>
+<circle cx="1226" cy="170" r="5" fill="#60a5fa" opacity="0.25"/>
+<circle cx="1264" cy="225" r="3" fill="#60a5fa" opacity="0.25"/>
+<circle cx="1302" cy="280" r="4" fill="#60a5fa" opacity="0.25"/>
+<circle cx="1340" cy="60" r="5" fill="#60a5fa" opacity="0.25"/>
+<circle cx="1378" cy="115" r="3" fill="#60a5fa" opacity="0.25"/>
+<circle cx="1416" cy="170" r="4" fill="#60a5fa" opacity="0.25"/>
+<circle cx="1454" cy="225" r="5" fill="#60a5fa" opacity="0.25"/>
+<circle cx="1492" cy="280" r="3" fill="#60a5fa" opacity="0.25"/>
+<circle cx="1530" cy="60" r="4" fill="#60a5fa" opacity="0.25"/>
+<circle cx="1568" cy="115" r="5" fill="#60a5fa" opacity="0.25"/>
+<circle cx="1606" cy="170" r="3" fill="#60a5fa" opacity="0.25"/>
+<circle cx="1644" cy="225" r="4" fill="#60a5fa" opacity="0.25"/>
+<text x="70" y="120" font-family="Georgia, 'Times New Roman', serif" font-size="74" font-weight="bold" fill="#ffffff" text-anchor="start">ChainState</text>
+<text x="70" y="168" font-family="Helvetica, Arial, DejaVu Sans, sans-serif" font-size="28" font-weight="normal" fill="#bfdbfe" text-anchor="start">Terraform Cloud Infrastructure Security &amp; Audit Platform</text>
+<text x="70" y="206" font-family="Helvetica, Arial, DejaVu Sans, sans-serif" font-size="19" font-weight="normal" fill="#93c5fd" text-anchor="start">Zero-trust approvals  •  Plan-bound apply tokens  •  Blockchain-enforced policy  •  Provable drift</text>
+<rect x="70" y="240" width="150" height="40" rx="20" fill="#10b981"/>
+<text x="145" y="266" font-family="Helvetica, Arial, DejaVu Sans, sans-serif" font-size="16" font-weight="bold" fill="#ffffff" text-anchor="middle">SECURE</text>
+<rect x="238" y="240" width="150" height="40" rx="20" fill="#8b5cf6"/>
+<text x="313" y="266" font-family="Helvetica, Arial, DejaVu Sans, sans-serif" font-size="16" font-weight="bold" fill="#ffffff" text-anchor="middle">IMMUTABLE</text>
+<rect x="406" y="240" width="150" height="40" rx="20" fill="#f59e0b"/>
+<text x="481" y="266" font-family="Helvetica, Arial, DejaVu Sans, sans-serif" font-size="16" font-weight="bold" fill="#ffffff" text-anchor="middle">VERIFIED</text>
+<text x="70" y="316" font-family="Helvetica, Arial, DejaVu Sans, sans-serif" font-size="15" font-weight="normal" fill="#cbd5e1" text-anchor="start">Terraform  •  GitHub Actions  •  AWS  •  FastAPI  •  PostgreSQL  •  Hyperledger Fabric  •  React  •  OPA</text>
+</svg>

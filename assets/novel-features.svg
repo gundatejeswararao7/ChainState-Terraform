@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 640" width="1600" height="640">
+<defs><marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#64748b"/></marker><marker id="arrr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#be123c"/></marker><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0f172a"/><stop offset="1" stop-color="#1e3a8a"/></linearGradient><filter id="sh" x="-5%" y="-5%" width="110%" height="120%"><feDropShadow dx="0" dy="2" stdDeviation="3" flood-color="#0f172a" flood-opacity="0.12"/></filter></defs>
+<rect width="1600" height="640" fill="#f8fafc"/>
+<text x="40" y="52" font-family="Georgia, 'Times New Roman', serif" font-size="28" font-weight="bold" fill="#0f172a" text-anchor="start">Proposed Novel Features</text>
+<text x="40" y="78" font-family="Helvetica, Arial, DejaVu Sans, sans-serif" font-size="14" font-weight="normal" fill="#475569" text-anchor="start">Proposed contributions. Verify against the literature before claiming novelty.</text>
+<g filter="url(#sh)">
+<rect x="40" y="110" width="495" height="220" rx="16" fill="#fff1f2" stroke="#be123c" stroke-width="2.5"/>
+</g>
+<circle cx="76" cy="150" r="20" fill="#be123c"/>
+<text x="76" y="157" font-family="Helvetica, Arial, DejaVu Sans, sans-serif" font-size="20" font-weight="bold" fill="#ffffff" text-anchor="middle">★</text>
+<text x="108" y="158" font-family="Helvetica, Arial, DejaVu Sans, sans-serif" font-size="19" font-weight="bold" fill="#9f1239" text-anchor="start">1  Plan-bound apply token</text>
+<text x="68" y="216" font-family="Helvetica, Arial, DejaVu Sans, sans-serif" font-size="15.5" font-weight="normal" fill="#334155" text-anchor="start">Chaincode issues a one-time token</text>
+<text x="68" y="246" font-family="Helvetica, Arial, DejaVu Sans, sans-serif" font-size="15.5" font-weight="normal" fill="#334155" text-anchor="start">tied to the approved plan hash.</text>
+<text x="68" y="276" font-family="Helvetica, Arial, DejaVu Sans, sans-serif" font-size="15.5" font-weight="normal" fill="#334155" text-anchor="start">Plan changes after approval = apply fails.</text>
+<g filter="url(#sh)">
+<rect x="553" y="110" width="495" height="220" rx="16" fill="#fff1f2" stroke="#be123c" stroke-width="2.5"/>
+</g>
+<circle cx="589" cy="150" r="20" fill="#be123c"/>
+<text x="589" y="157" font-family="Helvetica, Arial, DejaVu Sans, sans-serif" font-size="20" font-weight="bold" fill="#ffffff" text-anchor="middle">★</text>
+<text x="621" y="158" font-family="Helvetica, Arial, DejaVu Sans, sans-serif" font-size="19" font-weight="bold" fill="#9f1239" text-anchor="start">2  Chaincode policy enforcer</text>
+<text x="581" y="216" font-family="Helvetica, Arial, DejaVu Sans, sans-serif" font-size="15.5" font-weight="normal" fill="#334155" text-anchor="start">The ledger enforces the approval</text>
+<text x="581" y="246" font-family="Helvetica, Arial, DejaVu Sans, sans-serif" font-size="15.5" font-weight="normal" fill="#334155" text-anchor="start">quorum itself instead of only</text>
+<text x="581" y="276" font-family="Helvetica, Arial, DejaVu Sans, sans-serif" font-size="15.5" font-weight="normal" fill="#334155" text-anchor="start">recording what happened.</text>
+<g filter="url(#sh)">
+<rect x="1066" y="110" width="495" height="220" rx="16" fill="#fff1f2" stroke="#be123c" stroke-width="2.5"/>
+</g>
+<circle cx="1102" cy="150" r="20" fill="#be123c"/>
+<text x="1102" y="157" font-family="Helvetica, Arial, DejaVu Sans, sans-serif" font-size="20" font-weight="bold" fill="#ffffff" text-anchor="middle">★</text>
+<text x="1134" y="158" font-family="Helvetica, Arial, DejaVu Sans, sans-serif" font-size="19" font-weight="bold" fill="#9f1239" text-anchor="start">3  Merkle-anchored drift</text>
+<text x="1094" y="216" font-family="Helvetica, Arial, DejaVu Sans, sans-serif" font-size="15.5" font-weight="normal" fill="#334155" text-anchor="start">Expected-state Merkle root lives</text>
+<text x="1094" y="246" font-family="Helvetica, Arial, DejaVu Sans, sans-serif" font-size="15.5" font-weight="normal" fill="#334155" text-anchor="start">on-chain, so drift on one resource</text>
+<text x="1094" y="276" font-family="Helvetica, Arial, DejaVu Sans, sans-serif" font-size="15.5" font-weight="normal" fill="#334155" text-anchor="start">is provable without trusting the DB.</text>
+<g filter="url(#sh)">
+<rect x="40" y="355" width="495" height="220" rx="16" fill="#fff1f2" stroke="#be123c" stroke-width="2.5"/>
+</g>
+<circle cx="76" cy="395" r="20" fill="#be123c"/>
+<text x="76" y="402" font-family="Helvetica, Arial, DejaVu Sans, sans-serif" font-size="20" font-weight="bold" fill="#ffffff" text-anchor="middle">★</text>
+<text x="108" y="403" font-family="Helvetica, Arial, DejaVu Sans, sans-serif" font-size="19" font-weight="bold" fill="#9f1239" text-anchor="start">4  Monotonic AI risk</text>
+<text x="68" y="461" font-family="Helvetica, Arial, DejaVu Sans, sans-serif" font-size="15.5" font-weight="normal" fill="#334155" text-anchor="start">AI can raise a score, never lower it</text>
+<text x="68" y="491" font-family="Helvetica, Arial, DejaVu Sans, sans-serif" font-size="15.5" font-weight="normal" fill="#334155" text-anchor="start">below the rule floor. It sees only</text>
+<text x="68" y="521" font-family="Helvetica, Arial, DejaVu Sans, sans-serif" font-size="15.5" font-weight="normal" fill="#334155" text-anchor="start">sanitized diffs: anti prompt-injection.</text>
+<g filter="url(#sh)">
+<rect x="553" y="355" width="495" height="220" rx="16" fill="#fff1f2" stroke="#be123c" stroke-width="2.5"/>
+</g>
+<circle cx="589" cy="395" r="20" fill="#be123c"/>
+<text x="589" y="402" font-family="Helvetica, Arial, DejaVu Sans, sans-serif" font-size="20" font-weight="bold" fill="#ffffff" text-anchor="middle">★</text>
+<text x="621" y="403" font-family="Helvetica, Arial, DejaVu Sans, sans-serif" font-size="19" font-weight="bold" fill="#9f1239" text-anchor="start">5  Collusion guard</text>
+<text x="581" y="461" font-family="Helvetica, Arial, DejaVu Sans, sans-serif" font-size="15.5" font-weight="normal" fill="#334155" text-anchor="start">Detects self-approval and repeated</text>
+<text x="581" y="491" font-family="Helvetica, Arial, DejaVu Sans, sans-serif" font-size="15.5" font-weight="normal" fill="#334155" text-anchor="start">author-approver pairs using</text>
+<text x="581" y="521" font-family="Helvetica, Arial, DejaVu Sans, sans-serif" font-size="15.5" font-weight="normal" fill="#334155" text-anchor="start">history held on the ledger.</text>
+<g filter="url(#sh)">
+<rect x="1066" y="355" width="495" height="220" rx="16" fill="#fff1f2" stroke="#be123c" stroke-width="2.5"/>
+</g>
+<circle cx="1102" cy="395" r="20" fill="#be123c"/>
+<text x="1102" y="402" font-family="Helvetica, Arial, DejaVu Sans, sans-serif" font-size="20" font-weight="bold" fill="#ffffff" text-anchor="middle">★</text>
+<text x="1134" y="403" font-family="Helvetica, Arial, DejaVu Sans, sans-serif" font-size="19" font-weight="bold" fill="#9f1239" text-anchor="start">6  Causal receipt</text>
+<text x="1094" y="461" font-family="Helvetica, Arial, DejaVu Sans, sans-serif" font-size="15.5" font-weight="normal" fill="#334155" text-anchor="start">One verifiable chain: commit, plan,</text>
+<text x="1094" y="491" font-family="Helvetica, Arial, DejaVu Sans, sans-serif" font-size="15.5" font-weight="normal" fill="#334155" text-anchor="start">approval, token, CloudTrail event,</text>
+<text x="1094" y="521" font-family="Helvetica, Arial, DejaVu Sans, sans-serif" font-size="15.5" font-weight="normal" fill="#334155" text-anchor="start">drift check, ledger anchor.</text>
+</svg>
